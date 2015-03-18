@@ -1,0 +1,31 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/lesson_detail"
+              style="?android:attr/textAppearanceLarge"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="16dp"
+              android:textIsSelectable="true"
+              tools:context="edu.pdx.ece558.learnbraille.LessonDetailFragment"/>
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+               xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/lesson_braille_character"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/braille_cell_with_dots_numbered_large"
+                android:layout_margin="10dp"/>
+
+    <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lesson_spinner"
+            android:layout_margin="10dp"
+            android:focusable="true"/>
+</LinearLayout>

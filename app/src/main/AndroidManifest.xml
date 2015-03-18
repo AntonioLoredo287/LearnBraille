@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.pdx.ece558.learnbraille" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntroductionActivity"
+            android:label="@string/title_activity_introduction" >
+        </activity>
+        <activity
+            android:name=".GamesActivity"
+            android:label="@string/title_activity_games" >
+        </activity>
+        <activity
+            android:name=".LessonListActivity"
+            android:label="@string/title_lesson_list" >
+        </activity>
+        <activity
+            android:name=".LessonDetailActivity"
+            android:label="@string/title_lesson_detail"
+            android:parentActivityName=".LessonListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.pdx.ece558.learnbraille.LessonListActivity" />
+        </activity>
+        <activity
+            android:name=".LessonQuizListActivity"
+            android:label="@string/title_lessonquiz_list" >
+        </activity>
+        <activity
+            android:name=".LessonQuizDetailActivity"
+            android:label="@string/title_lessonquiz_detail"
+            android:parentActivityName=".LessonQuizListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.pdx.ece558.learnbraille.LessonQuizListActivity" />
+        </activity>
+    </application>
+
+</manifest>

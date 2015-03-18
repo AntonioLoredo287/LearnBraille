@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LearnBraille</string>
+    <string name="introduction_label">Introduction</string>
+    <string name="lessons_label">Lessons</string>
+    <string name="quizes_label">Quizes</string>
+    <string name="games_label">Games</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_introduction">IntroductionActivity</string>
+    <string name="introduction">The purpose of LearnBraille is to teach
+        the basics of Braille in a fun and interactive way.\n The application is broken down into
+        short lessons with interactive practice, followed by a lesson quiz.\n  Users obtain
+        achievements and points for completing lessons and quizes.\n  There are also games
+        the user can play to gain points and achievements. </string>
+    <string name="title_activity_lessons">Lessons</string>
+    <string name="lessons">Lessons allow the user to learn a small section of Braille at a time.\n
+        Each lesson includes an interactive braille character that can be used to follow along and
+        test characters.\n</string>
+    <string name="title_activity_quizes">QuizesActivity</string>
+    <string name="quizes">Quizes are taken after you complete a lesson and allows the user to
+        progress to new lessons.\n  Quizes test the user by providing a braille character or
+        english character, requesting the user to input the correct english/braille
+        equivalent.\n</string>
+    <string name="title_activity_games">GamesActivity</string>
+    <string name="games">Games allow the user to accumulate achievements and points outside of
+        working on lesson materials.\n</string>
+    <string name="title_lesson_list">Lessons</string>
+    <string name="title_lesson_detail">Lesson Detail</string>
+
+    <string name="lesson1Title">Starting Braille</string>
+    <string name="lesson1Description">UEB Braille characters are composed of 6 dots arranged as
+        two vertical rows of 3 dots each.\n  The below represents a blank braille cell.\n
+        The top left dot is numbered 1 increasing as you move down the left column.\n
+        The top right dot is numbered 4 increasing as you move down the right column.\n</string>
+
+    <string name="lesson2Title">Line 1 Characters</string>
+    <string name="lesson2Description">The first line braille characters all use the top 4 dots.\n
+        Dots 3 and 6 are not used.
+        These compose the first 10 characters a-j of the braille alphabet.\n</string>
+
+    <string name="lesson3Title">Line 2 Characters</string>
+    <string name="lesson3Description">The second line braille characters add dot 3 to the first
+        line characters and account for the letters k-t.\n </string>
+    <string name="lesson4Title">Line 3 Characters</string>
+    <string name="lesson4Description">The third line braille characters add dot 6 to the second
+        line characters and account for the letters u-z except w.\n </string>
+    <string name="title_lessonquiz_list">LessonQuizes</string>
+    <string name="title_lessonquiz_detail">LessonQuiz Detail</string>
+
+    <string name="quiz1Title">Quiz 1: Starting in braille</string>
+    <string name="quiz1Description">This quiz test the user on the ability to identify the braille layout.\n </string>
+
+    <string name="quiz2Title">Quiz 2: Line 1 characters</string>
+    <string name="quiz2Description">This quiz test the user on the ability to identify line 1 brialle characters.\n </string>
+
+    <string name="quiz3Title">Quiz 3: Line 2 characters</string>
+    <string name="quiz3Description">This quiz test the user on the ability to identify line 2 brialle characters.\n </string>
+
+    <string name="quiz4Title">Quiz 4: Line 3 characters</string>
+    <string name="quiz4Description">This quiz test the user on the ability to identify line 3 brialle characters.\n </string>
+
+</resources>
